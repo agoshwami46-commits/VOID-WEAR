@@ -990,7 +990,7 @@ app.post('/api/newsletter', (req, res) => {
    ========================================================================== */
 
 async function startServer() {
-  const port = 3000;
+  const port = Number(process.env.PORT)||3000;
   const httpServer = http.createServer(app);
 
   if (!isProduction) {
