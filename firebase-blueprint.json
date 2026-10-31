@@ -1,0 +1,78 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "VOID WEAR luxury streetwear garment or accessory",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "name": { "type": "string", "maxLength": 150 },
+        "category": { "type": "string", "enum": ["T-SHIRTS", "HOODIES", "BOTTOMS", "ACCESSORIES", "OUTERWEAR"] },
+        "tagline": { "type": "string", "maxLength": 200 },
+        "price": { "type": "number" },
+        "originalPrice": { "type": "number" },
+        "badge": { "type": "string", "enum": ["NEW DROP", "LIMITED", "BESTSELLER", "ARCHIVE", "NONE"] },
+        "sizes": { "type": "array" },
+        "colors": { "type": "array" },
+        "description": { "type": "string", "maxLength": 2000 },
+        "gsm": { "type": "number" },
+        "fabric": { "type": "string", "maxLength": 150 },
+        "fit": { "type": "string", "maxLength": 150 },
+        "details": { "type": "array" },
+        "careInstructions": { "type": "array" },
+        "images": { "type": "array" },
+        "inStock": { "type": "boolean" },
+        "stockCount": { "type": "number" },
+        "isPublished": { "type": "boolean" },
+        "sku": { "type": "string", "maxLength": 64 },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "name", "category", "price", "stockCount", "isPublished"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Customer purchase order with shipping information",
+      "type": "object",
+      "properties": {
+        "orderId": { "type": "string", "maxLength": 64 },
+        "createdAt": { "type": "string" },
+        "items": { "type": "array" },
+        "subtotal": { "type": "number" },
+        "discount": { "type": "number" },
+        "shipping": { "type": "number" },
+        "total": { "type": "number" },
+        "customer": { "type": "object" },
+        "paymentMethod": { "type": "string", "enum": ["COD", "UPI", "CARD"] },
+        "status": { "type": "string", "enum": ["CONFIRMED", "PREPARING", "DISPATCHED", "DELIVERED", "CANCELLED"] },
+        "userId": { "type": "string", "maxLength": 128 }
+      },
+      "required": ["orderId", "items", "total", "customer", "paymentMethod", "status"]
+    },
+    "Admin": {
+      "title": "Admin",
+      "description": "Designated administrator identity record",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "maxLength": 200 },
+        "role": { "type": "string", "enum": ["superadmin", "admin"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["email", "role"]
+    }
+  },
+  "firestore": {
+    "/products/{productId}": {
+      "schema": { "$ref": "#/entities/Product" },
+      "description": "Live catalog of streetwear pieces"
+    },
+    "/orders/{orderId}": {
+      "schema": { "$ref": "#/entities/Order" },
+      "description": "Customer order documents and fulfillment records"
+    },
+    "/admins/{adminId}": {
+      "schema": { "$ref": "#/entities/Admin" },
+      "description": "Authorized administrator whitelist documents"
+    }
+  }
+}

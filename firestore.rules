@@ -1,0 +1,72 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isBootstrappedAdmin() {
+      return isSignedIn() &&
+        (request.auth.token.email.lower() == 'agoshwami46@gmail.com' ||
+         request.auth.token.email.lower() == 'voidwear1010@gmail.com');
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        isBootstrappedAdmin() ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128;
+    }
+
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Admins Collection
+    match /admins/{adminId} {
+      allow read: if isSignedIn() && (isAdmin() || request.auth.uid == adminId);
+      allow write: if isAdmin();
+    }
+
+    // Products Collection
+    match /products/{productId} {
+      // Public can view products on the storefront
+      allow read: if true;
+
+      // Allow saving, updating, and removing published products
+      allow write: if isValidId(productId);
+    }
+
+    // Orders Collection
+    match /orders/{orderId} {
+      // Customers can create an order upon checkout
+      allow create: if isValidId(orderId) &&
+        request.resource.data.orderId is string &&
+        request.resource.data.orderId.size() <= 64 &&
+        request.resource.data.total is number &&
+        request.resource.data.total >= 0 &&
+        request.resource.data.items is list &&
+        request.resource.data.items.size() > 0 &&
+        request.resource.data.status in [
+          'PAYMENT_PENDING', 'PAID', 'PROCESSING', 'SENT_TO_QIKINK', 'PRINTING',
+          'PACKED', 'SHIPPED', 'DELIVERED', 'CANCELLED', 'REFUNDED', 'FAILED',
+          'QIKINK_FAILED', 'CONFIRMED', 'PREPARING', 'DISPATCHED'
+        ];
+
+      // Admin can view all orders; signed-in customer can view their own order
+      allow get: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
+      allow list: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
+
+      // Only admin can update order status or fulfill orders
+      allow update, delete: if isAdmin() && isValidId(orderId);
+    }
+  }
+}
