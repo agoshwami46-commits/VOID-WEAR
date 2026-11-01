@@ -1,0 +1,42 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Verify admin authentication (owner of VOID WEAR)
+    function isSuperAdmin() {
+      return request.auth != null && 
+        request.auth.token.email.lower() == 'agoshwami46@gmail.com';
+    }
+
+    // Validate image MIME type (JPG, PNG, WebP) and size limit (<= 10MB)
+    function isValidProductImage() {
+      return request.resource.size <= 10 * 1024 * 1024 &&
+        request.resource.contentType.matches('image/(jpeg|jpg|png|webp)');
+    }
+
+    // Product images directory: Public read access for storefront, Admin-only write
+    match /products/{allPaths=**} {
+      allow read: if true;
+      allow write: if isSuperAdmin() && isValidProductImage();
+      allow delete: if isSuperAdmin();
+    }
+
+    match /products_front/{allPaths=**} {
+      allow read: if true;
+      allow write: if isSuperAdmin() && isValidProductImage();
+      allow delete: if isSuperAdmin();
+    }
+
+    match /products_back/{allPaths=**} {
+      allow read: if true;
+      allow write: if isSuperAdmin() && isValidProductImage();
+      allow delete: if isSuperAdmin();
+    }
+
+    // Default deny
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -28,61 +28,61 @@
       "sideImage": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg",
       "angles": [
         {
-          "url": "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+          "angle": "FRONT",
           "label": "FRONT ANGLE",
-          "angle": "FRONT"
+          "url": "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg"
         },
         {
           "url": "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
-          "angle": "BACK",
-          "label": "REAR PROFILE"
+          "label": "REAR PROFILE",
+          "angle": "BACK"
         },
         {
-          "angle": "SIDE",
+          "url": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg",
           "label": "SIDE SILHOUETTE",
-          "url": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+          "angle": "SIDE"
         }
       ],
       "colors": [
         {
-          "images": [
-            "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
-            "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
-            "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
-          ],
-          "family": "Black",
+          "hex": "#0B0B0B",
           "name": "Pitch Black",
-          "hex": "#0B0B0B"
+          "images": [
+            "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+          ],
+          "family": "Black"
         },
         {
-          "family": "White",
+          "images": [
+            "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+          ],
           "hex": "#EDECE8",
-          "name": "Chalk Ivory",
+          "family": "White",
+          "name": "Chalk Ivory"
+        },
+        {
           "images": [
             "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
-          ]
-        },
-        {
+          ],
+          "hex": "#162A43",
           "name": "Deep Cobalt Blue",
-          "family": "Blue",
-          "images": [
-            "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
-            "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
-            "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
-          ],
-          "hex": "#162A43"
+          "family": "Blue"
         },
         {
+          "hex": "#243828",
           "images": [
             "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
           ],
-          "hex": "#243828",
-          "family": "Green",
-          "name": "Forest Pine Green"
+          "name": "Forest Pine Green",
+          "family": "Green"
         },
         {
           "hex": "#ffb8f0",
@@ -95,9 +95,9 @@
           ]
         },
         {
-          "family": "Other",
-          "name": "MAROON",
           "hex": "#730c0c",
+          "name": "MAROON",
+          "family": "Other",
           "images": [
             "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
@@ -153,17 +153,17 @@
       "angles": [
         {
           "angle": "FRONT",
-          "url": "/uploads/1793473056959_whatsapp_image_2026_10_31_at_12_.jpeg",
-          "label": "FRONT ANGLE"
+          "label": "FRONT ANGLE",
+          "url": "/uploads/1793473056959_whatsapp_image_2026_10_31_at_12_.jpeg"
         },
         {
-          "angle": "BACK",
           "url": "/uploads/1793473066255_whatsapp_image_2026_10_31_at_12_.jpeg",
+          "angle": "BACK",
           "label": "REAR PROFILE"
         },
         {
-          "angle": "SIDE",
           "label": "SIDE SILHOUETTE",
+          "angle": "SIDE",
           "url": "/uploads/1793473077069_whatsapp_image_2026_10_31_at_12_.jpeg"
         }
       ],
@@ -174,29 +174,29 @@
             "/uploads/1793473066255_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473077069_whatsapp_image_2026_10_31_at_12_.jpeg"
           ],
-          "hex": "#0B0B0B",
           "family": "Black",
-          "name": "Pitch Black"
+          "name": "Pitch Black",
+          "hex": "#0B0B0B"
         },
         {
-          "hex": "#243828",
+          "family": "Green",
           "images": [
             "/uploads/1793473056959_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473066255_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473077069_whatsapp_image_2026_10_31_at_12_.jpeg"
           ],
-          "name": "Forest Pine Green",
-          "family": "Green"
+          "hex": "#243828",
+          "name": "Forest Pine Green"
         },
         {
           "hex": "#162A43",
+          "family": "Blue",
+          "name": "Deep Cobalt Blue",
           "images": [
             "/uploads/1793473056959_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473066255_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473077069_whatsapp_image_2026_10_31_at_12_.jpeg"
-          ],
-          "family": "Blue",
-          "name": "Deep Cobalt Blue"
+          ]
         }
       ],
       "description": "Product Name: Acid Wash Hoodie – The Samurai (Voidwear Samurai Collection)\n\nProduct Overview\nUnleash your inner warrior with \"The Samurai\" acid wash hoodie from Voidwear. Part of the exclusive Samurai Collection, this piece embodies the ethos: \"Same essence, different colors, bolder you.\" Featuring a stunning, intricate graphic of a samurai against a vivid crimson sun and falling cherry blossoms, it merges traditional Japanese aesthetics with rugged, modern streetwear design.\n\nKey Features\nAcid Wash Texture: Unique distressed vintage wash finish that gives each hoodie an edgy, one-of-a-kind look and texture.\n\nStriking Back Graphic: High-impact artwork showcasing a legendary samurai set against a bold red backdrop and dynamic cherry blossom accents.\n\nOversized Fit: Tailored with a relaxed, modern drop-shoulder silhouette for maximum street style and comfortable layering.\n\nAll-Season Comfort: Crafted from a soft, breathable fabric blend designed to keep you comfortable year-round.\n\nDurable Print: High-definition print technology ensures the rich reds and deep monochrome details stay sharp and vibrant wash after wash.\n\nSpecifications & Care\nBrand/Collection: Voidwear – Samurai Collection\n\nMaterial: Premium Cotton Blend\n\nFit Type: Oversized Fit\n\nTexture: Acid Wash\n\nCare Instructions: Machine wash cold inside out with like colors. Tumble dry low or hang dry. Do not iron directly on the graphic.\n\nThe Message\nSame Essence. Different Colors. Bolder You.",
@@ -246,56 +246,66 @@
       "sideImage": "/uploads/1793473123797_whatsapp_image_2026_10_30_at_10_.jpeg",
       "angles": [
         {
-          "angle": "FRONT",
           "label": "FRONT ANGLE",
+          "angle": "FRONT",
           "url": "/uploads/1793473103150_whatsapp_image_2026_10_31_at_12_.jpeg"
         },
         {
-          "url": "/uploads/1793473110130_whatsapp_image_2026_10_31_at_12_.jpeg",
           "angle": "BACK",
-          "label": "REAR PROFILE"
+          "label": "REAR PROFILE",
+          "url": "/uploads/1793473110130_whatsapp_image_2026_10_31_at_12_.jpeg"
         },
         {
-          "angle": "SIDE",
+          "url": "/uploads/1793473123797_whatsapp_image_2026_10_30_at_10_.jpeg",
           "label": "SIDE SILHOUETTE",
-          "url": "/uploads/1793473123797_whatsapp_image_2026_10_30_at_10_.jpeg"
+          "angle": "SIDE"
         }
       ],
       "colors": [
         {
+          "hex": "#0B0B0B",
           "name": "Pitch Black",
           "images": [
             "/uploads/1793473103150_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473110130_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473123797_whatsapp_image_2026_10_30_at_10_.jpeg"
           ],
-          "hex": "#0B0B0B",
           "family": "Black"
         },
         {
           "name": "Chalk Ivory",
+          "family": "White",
           "images": [
             "/uploads/1793473103150_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473110130_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473123797_whatsapp_image_2026_10_30_at_10_.jpeg"
           ],
-          "hex": "#EDECE8",
-          "family": "White"
+          "hex": "#EDECE8"
         },
         {
-          "hex": "#243828",
-          "family": "Green",
-          "name": "Forest Pine Green",
           "images": [
             "/uploads/1793473103150_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473110130_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473123797_whatsapp_image_2026_10_30_at_10_.jpeg"
-          ]
+          ],
+          "family": "Green",
+          "hex": "#243828",
+          "name": "Forest Pine Green"
         },
         {
           "family": "Blue",
+          "images": [
+            "/uploads/1793473103150_whatsapp_image_2026_10_31_at_12_.jpeg",
+            "/uploads/1793473110130_whatsapp_image_2026_10_31_at_12_.jpeg",
+            "/uploads/1793473123797_whatsapp_image_2026_10_30_at_10_.jpeg"
+          ],
           "hex": "#162A43",
-          "name": "Deep Cobalt Blue",
+          "name": "Deep Cobalt Blue"
+        },
+        {
+          "family": "Other",
+          "name": "MAROON",
+          "hex": "#7a0000",
           "images": [
             "/uploads/1793473103150_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473110130_whatsapp_image_2026_10_31_at_12_.jpeg",
@@ -308,19 +318,9 @@
             "/uploads/1793473110130_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473123797_whatsapp_image_2026_10_30_at_10_.jpeg"
           ],
-          "hex": "#7a0000",
-          "name": "MAROON",
-          "family": "Other"
-        },
-        {
-          "images": [
-            "/uploads/1793473103150_whatsapp_image_2026_10_31_at_12_.jpeg",
-            "/uploads/1793473110130_whatsapp_image_2026_10_31_at_12_.jpeg",
-            "/uploads/1793473123797_whatsapp_image_2026_10_30_at_10_.jpeg"
-          ],
+          "family": "Other",
           "hex": "#f38cc8",
-          "name": "BABY PINK",
-          "family": "Other"
+          "name": "BABY PINK"
         }
       ],
       "description": "Product Name: Oversized Hoodie – The Flora (Voidwear Floral Collection)\n\nProduct Overview\nEmbrace a balance of striking contrast and delicate elegance with \"The Flora\" hoodie from Voidwear. Part of the exclusive Floral Collection, this piece follows the brand's core philosophy: \"Same essence, different colors, bolder you.\" Featuring a stunning back graphic of blooming floral artistry against a clean, deep black canvas, it combines nature-inspired beauty with modern streetwear style.\n\nKey Features\nStriking Floral Back Graphic: High-impact artwork showcasing blooming white and crimson floral arrangements intertwined with dark, moody foliage.\n\nOversized Fit: Designed with a relaxed, modern drop-shoulder silhouette for ultimate streetwear comfort and effortless layering.\n\nPremium Cotton Blend: Crafted from a soft, high-quality fabric blend built to keep you cozy and breathable throughout the year.\n\nDurable Print: High-definition printing technology ensures the intricate details and vibrant color contrasts stay sharp wash after wash.\n\nSpecifications & Care\nBrand/Collection: Voidwear – Floral Collection\n\nMaterial: Premium Cotton Blend\n\nFit Type: Oversized Fit\n\nCare Instructions: Machine wash cold inside out with like colors. Tumble dry low or hang dry to preserve the fabric and print quality. Do not iron directly on the graphic.\n\nThe Message\nSame Essence. Different Colors. Bolder You",
@@ -375,66 +375,66 @@
           "label": "FRONT ANGLE"
         },
         {
+          "angle": "BACK",
           "url": "/uploads/1793430629160_whatsapp_image_2026_10_31_at_12_.jpeg",
-          "label": "REAR PROFILE",
-          "angle": "BACK"
+          "label": "REAR PROFILE"
         },
         {
-          "url": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg",
+          "angle": "SIDE",
           "label": "SIDE SILHOUETTE",
-          "angle": "SIDE"
+          "url": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
         }
       ],
       "colors": [
         {
-          "name": "Pitch Black",
-          "family": "Black",
           "images": [
             "/uploads/1793473172193_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793430629160_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
           ],
+          "name": "Pitch Black",
+          "family": "Black",
           "hex": "#0B0B0B"
         },
         {
-          "family": "White",
-          "hex": "#EDECE8",
           "images": [
             "/uploads/1793473172193_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793430629160_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
           ],
-          "name": "Chalk Ivory"
+          "name": "Chalk Ivory",
+          "hex": "#EDECE8",
+          "family": "White"
         },
         {
+          "name": "Forest Pine Green",
+          "hex": "#243828",
           "images": [
             "/uploads/1793473172193_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793430629160_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
           ],
-          "name": "Forest Pine Green",
-          "hex": "#243828",
           "family": "Green"
         },
         {
+          "name": "BABY PINK",
+          "hex": "#fb79d8",
+          "family": "Other",
           "images": [
             "/uploads/1793473172193_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793430629160_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
-          ],
-          "hex": "#fb79d8",
-          "name": "BABY PINK",
-          "family": "Other"
+          ]
         },
         {
+          "family": "Other",
+          "hex": "#a0c4f3",
           "name": "LAVENDER",
           "images": [
             "/uploads/1793473172193_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793430629160_whatsapp_image_2026_10_31_at_12_.jpeg",
             "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
-          ],
-          "family": "Other",
-          "hex": "#a0c4f3"
+          ]
         }
       ],
       "description": "Product Name: Bleeding Butterfly Sweatshirt – Broken But Beautiful (Voidwear Butterfly Collection)\n\nProduct Overview\nRedefine your street style with the \"Bleeding Butterfly\" sweatshirt from Voidwear. Guided by the motto \"Broken but beautiful\" and \"Same essence, different colors, bolder you,\" this sweatshirt features a powerful chest graphic juxtaposing a delicate, splattered butterfly against raw contrast. Available in a versatile palette of colors, it is designed for those who wear their transformation with pride.\n\nKey Features\nStriking Chest Graphic: High-impact \"Bleeding Butterfly\" artwork featuring sharp monochrome and vivid crimson splatters across the front.\n\nOversized Fit: Tailored with a relaxed, drop-shoulder streetwear silhouette for effortless comfort and styling.\n\nSoft Cotton Blend: Crafted from a premium, all-day comfortable fabric blend built for warmth and everyday wear.\n\nPremium Details & Durable Print: Built with high-end stitching and long-lasting print technology to keep your design vibrant wear after wear.\n\nColor Options: Available in White, Pink, Blue, Green, and Black.\n\nSpecifications & Care\nBrand/Collection: Voidwear – Butterfly Collection (\"Broken But Beautiful\")\n\nMaterial: Premium Cotton Blend (Soft fleece interior)\n\nFit Type: Oversized Fit\n\nAvailable Colors: White, Pink, Blue, Green, Black\n\nCare Instructions: Machine wash cold inside out with like colors. Tumble dry low or hang dry. Do not iron directly on the graphic.\n\nThe Message\nBroken But Beautiful. Same Essence. Different Colors. Bolder You.",
@@ -485,25 +485,25 @@
       "angles": [
         {
           "url": "/uploads/1793473238741_whatsapp_image_2026_10_30_at_11_.jpeg",
-          "angle": "FRONT",
-          "label": "FRONT ANGLE"
+          "label": "FRONT ANGLE",
+          "angle": "FRONT"
         },
         {
-          "label": "REAR PROFILE",
           "url": "/uploads/1793473251637_whatsapp_image_2026_10_30_at_11_.jpeg",
-          "angle": "BACK"
+          "angle": "BACK",
+          "label": "REAR PROFILE"
         },
         {
-          "label": "SIDE SILHOUETTE",
+          "url": "/uploads/1793473270134_whatsapp_image_2026_10_30_at_10_.jpeg",
           "angle": "SIDE",
-          "url": "/uploads/1793473270134_whatsapp_image_2026_10_30_at_10_.jpeg"
+          "label": "SIDE SILHOUETTE"
         }
       ],
       "colors": [
         {
-          "family": "Black",
           "hex": "#0B0B0B",
           "name": "Pitch Black",
+          "family": "Black",
           "images": [
             "/uploads/1793473238741_whatsapp_image_2026_10_30_at_11_.jpeg",
             "/uploads/1793473251637_whatsapp_image_2026_10_30_at_11_.jpeg",
@@ -511,28 +511,28 @@
           ]
         },
         {
-          "family": "White",
           "hex": "#EDECE8",
           "name": "Chalk Ivory",
           "images": [
             "/uploads/1793473238741_whatsapp_image_2026_10_30_at_11_.jpeg",
             "/uploads/1793473251637_whatsapp_image_2026_10_30_at_11_.jpeg",
             "/uploads/1793473270134_whatsapp_image_2026_10_30_at_10_.jpeg"
-          ]
+          ],
+          "family": "White"
         },
         {
+          "family": "Green",
           "images": [
             "/uploads/1793473238741_whatsapp_image_2026_10_30_at_11_.jpeg",
             "/uploads/1793473251637_whatsapp_image_2026_10_30_at_11_.jpeg",
             "/uploads/1793473270134_whatsapp_image_2026_10_30_at_10_.jpeg"
           ],
           "hex": "#243828",
-          "name": "Forest Pine Green",
-          "family": "Green"
+          "name": "Forest Pine Green"
         },
         {
-          "family": "Blue",
           "name": "Deep Cobalt Blue",
+          "family": "Blue",
           "hex": "#162A43",
           "images": [
             "/uploads/1793473238741_whatsapp_image_2026_10_30_at_11_.jpeg",
@@ -541,23 +541,23 @@
           ]
         },
         {
-          "hex": "#670404",
+          "family": "Other",
           "images": [
             "/uploads/1793473238741_whatsapp_image_2026_10_30_at_11_.jpeg",
             "/uploads/1793473251637_whatsapp_image_2026_10_30_at_11_.jpeg",
             "/uploads/1793473270134_whatsapp_image_2026_10_30_at_10_.jpeg"
           ],
-          "name": "MAROON",
-          "family": "Other"
+          "hex": "#670404",
+          "name": "MAROON"
         },
         {
+          "hex": "#f0ade4",
+          "name": "BABY PINK",
           "images": [
             "/uploads/1793473238741_whatsapp_image_2026_10_30_at_11_.jpeg",
             "/uploads/1793473251637_whatsapp_image_2026_10_30_at_11_.jpeg",
             "/uploads/1793473270134_whatsapp_image_2026_10_30_at_10_.jpeg"
           ],
-          "name": "BABY PINK",
-          "hex": "#f0ade4",
           "family": "Other"
         }
       ],
@@ -609,80 +609,80 @@
       "angles": [
         {
           "url": "/uploads/1793473307183_whatsapp_image_2026_10_31_at_1_2.jpeg",
-          "label": "FRONT ANGLE",
-          "angle": "FRONT"
+          "angle": "FRONT",
+          "label": "FRONT ANGLE"
         },
         {
           "url": "/uploads/1793473315926_whatsapp_image_2026_10_31_at_1_2.jpeg",
-          "angle": "BACK",
-          "label": "REAR PROFILE"
+          "label": "REAR PROFILE",
+          "angle": "BACK"
         },
         {
-          "url": "/uploads/1793473324373_whatsapp_image_2026_10_31_at_1_2.jpeg",
+          "angle": "SIDE",
           "label": "SIDE SILHOUETTE",
-          "angle": "SIDE"
+          "url": "/uploads/1793473324373_whatsapp_image_2026_10_31_at_1_2.jpeg"
         }
       ],
       "colors": [
         {
           "name": "Pitch Black",
+          "hex": "#0B0B0B",
           "images": [
             "/uploads/1793473307183_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473315926_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473324373_whatsapp_image_2026_10_31_at_1_2.jpeg"
           ],
-          "family": "Black",
-          "hex": "#0B0B0B"
+          "family": "Black"
         },
         {
           "family": "White",
+          "name": "Chalk Ivory",
           "images": [
             "/uploads/1793473307183_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473315926_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473324373_whatsapp_image_2026_10_31_at_1_2.jpeg"
           ],
-          "name": "Chalk Ivory",
           "hex": "#EDECE8"
         },
         {
+          "name": "Forest Pine Green",
           "hex": "#243828",
           "images": [
             "/uploads/1793473307183_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473315926_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473324373_whatsapp_image_2026_10_31_at_1_2.jpeg"
           ],
-          "name": "Forest Pine Green",
           "family": "Green"
         },
         {
           "family": "Blue",
-          "hex": "#162A43",
           "images": [
             "/uploads/1793473307183_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473315926_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473324373_whatsapp_image_2026_10_31_at_1_2.jpeg"
           ],
+          "hex": "#162A43",
           "name": "Deep Cobalt Blue"
         },
         {
-          "family": "Other",
-          "name": "MAROON",
+          "hex": "#770909",
           "images": [
             "/uploads/1793473307183_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473315926_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473324373_whatsapp_image_2026_10_31_at_1_2.jpeg"
           ],
-          "hex": "#770909"
+          "name": "MAROON",
+          "family": "Other"
         },
         {
           "hex": "#dd73d4",
-          "family": "Other",
-          "name": "BABY PINK",
           "images": [
             "/uploads/1793473307183_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473315926_whatsapp_image_2026_10_31_at_1_2.jpeg",
             "/uploads/1793473324373_whatsapp_image_2026_10_31_at_1_2.jpeg"
-          ]
+          ],
+          "family": "Other",
+          "name": "BABY PINK"
         }
       ],
       "description": "Product Name: Bleeding Butterfly Hoodie (Voidwear Butterfly Collection)\n\nProduct Overview\nStep beyond the ordinary with the \"Bleeding Butterfly\" hoodie from Voidwear. Built for those who wear their evolution proudly, this piece embodies the core message: \"Freedom, Transformation, A Stronger You.\" Featuring an intense, splattered butterfly graphic across the back, it fuses striking raw artistry with everyday comfort.\n\nKey Features\nStriking Back Graphic: High-impact \"Bleeding Butterfly\" artwork featuring sharp white, monochrome, and vivid crimson paint splatters set against a deep black hoodie.\n\nOversized Fit: Designed with a relaxed, drop-shoulder silhouette for the ultimate modern streetwear look and easy layering.\n\nPremium Cotton Blend: Crafted from a soft, high-quality fabric blend that offers breathable comfort and cozy warmth.\n\nDurable Print: High-definition printing technology ensures the intricate details and vibrant color contrasts stay sharp wash after wash.\n\nSpecifications & Care\nBrand/Collection: Voidwear – Butterfly Collection\n\nMaterial: Premium Cotton Blend\n\nFit Type: Oversized Fit\n\nCare Instructions: Machine wash cold inside out with like colors. Tumble dry low or hang dry. Do not iron directly on the graphic.\n\nThe Message\nFreedom. Transformation. A Stronger You.",
@@ -731,32 +731,32 @@
       "angles": [
         {
           "url": "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
-          "label": "FRONT ANGLE",
-          "angle": "FRONT"
+          "angle": "FRONT",
+          "label": "FRONT ANGLE"
         },
         {
-          "label": "REAR PROFILE",
+          "url": "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg",
           "angle": "BACK",
-          "url": "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
+          "label": "REAR PROFILE"
         }
       ],
       "colors": [
         {
           "family": "Black",
-          "hex": "#0B0B0B",
-          "name": "Pitch Black",
-          "images": [
-            "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
-            "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
-          ]
-        },
-        {
-          "hex": "#EDECE8",
-          "family": "White",
           "images": [
             "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
           ],
+          "name": "Pitch Black",
+          "hex": "#0B0B0B"
+        },
+        {
+          "images": [
+            "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
+            "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
+          ],
+          "family": "White",
+          "hex": "#EDECE8",
           "name": "Chalk Ivory"
         },
         {
@@ -765,44 +765,44 @@
             "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
           ],
           "name": "Deep Cobalt Blue",
-          "family": "Blue",
-          "hex": "#162A43"
+          "hex": "#162A43",
+          "family": "Blue"
         },
         {
+          "name": "Forest Pine Green",
           "images": [
             "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
           ],
-          "name": "Forest Pine Green",
           "family": "Green",
           "hex": "#243828"
         },
         {
-          "family": "Other",
+          "images": [
+            "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
+            "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
+          ],
           "name": "MAROON",
-          "hex": "#810909",
+          "family": "Other",
+          "hex": "#810909"
+        },
+        {
+          "family": "Other",
+          "images": [
+            "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
+            "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
+          ],
+          "hex": "#dd9cd5",
+          "name": "BABY PINK"
+        },
+        {
+          "name": "LAVENDER",
+          "hex": "#859dff",
+          "family": "Other",
           "images": [
             "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
           ]
-        },
-        {
-          "images": [
-            "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
-            "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
-          ],
-          "name": "BABY PINK",
-          "family": "Other",
-          "hex": "#dd9cd5"
-        },
-        {
-          "hex": "#859dff",
-          "images": [
-            "/uploads/1793473348592_whatsapp_image_2026_10_20_at_3_1.jpeg",
-            "/uploads/1793473355794_whatsapp_image_2026_10_31_at_1_4.jpeg"
-          ],
-          "name": "LAVENDER",
-          "family": "Other"
         }
       ],
       "description": "Product Name: Legacy of Lion T-Shirt (Voidwear Premium Oversized Streetwear)\n\nProduct Overview\nMake a statement that outlasts the ordinary with the \"Legacy\" Lion T-shirt from Voidwear. As part of their premium oversized streetwear line, this piece is built on the creed: \"More than just a t-shirt\" and \"Legacy lives on. Wear your story.\" Featuring a clean, bold chest branding and a powerful, intricate lion portrait framed by laurel wreaths on the back, it is designed for those who command respect and leave a lasting impression.\n\nKey Features\nBold Graphic Design: Features crisp \"LEGACY\" chest typography complemented by a striking, highly-detailed lion head graphic and laurel wreath motif across the back.\n\nOversized Streetwear Fit: Cut with a modern, relaxed silhouette that delivers ultimate comfort and effortless styling.\n\n100% Cotton Fabric: Made with pure, breathable cotton that ensures all-day comfort and superior softness.\n\nDurable Craftsmanship: Built with premium neck ribs, high-quality printing, and durable stitching to ensure your tee stands the test of time.\n\nSpecifications & Care\nBrand/Collection: Voidwear – Premium Oversized Streetwear (\"Streetwear for the Real Ones\")\n\nMaterial: 100% Cotton\n\nFit Type: Oversized Fit\n\nCare Instructions: Machine wash cold inside out with like colors. Tumble dry low or hang dry. Do not iron directly on the graphic.\n\nThe Message\nLegacy Lives On. Wear Your Story.",
@@ -850,69 +850,69 @@
       "backImage": "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg",
       "angles": [
         {
-          "label": "FRONT ANGLE",
           "url": "/uploads/1793473384974_whatsapp_image_2026_10_20_at_3_1.jpeg",
-          "angle": "FRONT"
+          "angle": "FRONT",
+          "label": "FRONT ANGLE"
         },
         {
           "url": "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg",
-          "angle": "BACK",
-          "label": "REAR PROFILE"
+          "label": "REAR PROFILE",
+          "angle": "BACK"
         }
       ],
       "colors": [
         {
-          "family": "Black",
           "name": "Pitch Black",
+          "images": [
+            "/uploads/1793473384974_whatsapp_image_2026_10_20_at_3_1.jpeg",
+            "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg"
+          ],
           "hex": "#0B0B0B",
-          "images": [
-            "/uploads/1793473384974_whatsapp_image_2026_10_20_at_3_1.jpeg",
-            "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg"
-          ]
+          "family": "Black"
         },
         {
           "images": [
             "/uploads/1793473384974_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg"
           ],
-          "name": "Chalk Ivory",
+          "family": "White",
           "hex": "#EDECE8",
-          "family": "White"
+          "name": "Chalk Ivory"
         },
         {
-          "hex": "#243828",
-          "images": [
-            "/uploads/1793473384974_whatsapp_image_2026_10_20_at_3_1.jpeg",
-            "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg"
-          ],
           "name": "Forest Pine Green",
-          "family": "Green"
-        },
-        {
-          "family": "Blue",
-          "hex": "#162A43",
-          "name": "Deep Cobalt Blue",
+          "hex": "#243828",
+          "family": "Green",
           "images": [
             "/uploads/1793473384974_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg"
           ]
         },
         {
+          "images": [
+            "/uploads/1793473384974_whatsapp_image_2026_10_20_at_3_1.jpeg",
+            "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg"
+          ],
+          "family": "Blue",
+          "name": "Deep Cobalt Blue",
+          "hex": "#162A43"
+        },
+        {
+          "name": "MAROON",
           "hex": "#710909",
           "images": [
             "/uploads/1793473384974_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg"
           ],
-          "family": "Other",
-          "name": "MAROON"
+          "family": "Other"
         },
         {
+          "name": "LAVENDER",
+          "hex": "#9791ee",
           "images": [
             "/uploads/1793473384974_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473393486_whatsapp_image_2026_10_31_at_3_0.jpeg"
           ],
-          "hex": "#9791ee",
-          "name": "LAVENDER",
           "family": "Other"
         }
       ],
@@ -960,75 +960,75 @@
       "backImage": "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg",
       "angles": [
         {
-          "url": "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
           "angle": "FRONT",
-          "label": "FRONT ANGLE"
+          "label": "FRONT ANGLE",
+          "url": "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg"
         },
         {
-          "label": "REAR PROFILE",
           "angle": "BACK",
+          "label": "REAR PROFILE",
           "url": "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
         }
       ],
       "colors": [
         {
-          "images": [
-            "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
-            "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
-          ],
-          "name": "Pitch Black",
           "family": "Black",
-          "hex": "#0B0B0B"
+          "images": [
+            "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
+            "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
+          ],
+          "hex": "#0B0B0B",
+          "name": "Pitch Black"
         },
         {
+          "images": [
+            "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
+            "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
+          ],
+          "family": "White",
           "hex": "#EDECE8",
-          "images": [
-            "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
-            "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
-          ],
-          "name": "Chalk Ivory",
-          "family": "White"
+          "name": "Chalk Ivory"
         },
         {
-          "family": "Green",
-          "name": "Forest Pine Green",
           "images": [
             "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
           ],
+          "name": "Forest Pine Green",
+          "family": "Green",
           "hex": "#243828"
         },
         {
-          "name": "Deep Cobalt Blue",
+          "family": "Blue",
+          "hex": "#162A43",
           "images": [
             "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
           ],
-          "family": "Blue",
-          "hex": "#162A43"
+          "name": "Deep Cobalt Blue"
         },
         {
-          "family": "Other",
           "name": "MAROON",
           "hex": "#650606",
+          "family": "Other",
           "images": [
             "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
           ]
         },
         {
-          "name": "LAVENDER",
-          "family": "Other",
-          "hex": "#96e8fd",
           "images": [
             "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
-          ]
+          ],
+          "family": "Other",
+          "name": "LAVENDER",
+          "hex": "#96e8fd"
         },
         {
           "name": "BABY PINK",
-          "family": "Other",
           "hex": "#f196fd",
+          "family": "Other",
           "images": [
             "/uploads/1793473416500_whatsapp_image_2026_10_20_at_3_1.jpeg",
             "/uploads/1793473428375_whatsapp_image_2026_10_31_at_3_0.jpeg"
@@ -1056,6 +1056,498 @@
     }
   ],
   "orders": [
+    {
+      "customerName": "Aesthetic QA Verifier",
+      "email": "qa.test@voidwear.in",
+      "phone": "+919999999999",
+      "address": "Varanasi Atelier Road",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "pincode": "221002",
+      "items": [
+        {
+          "product": {
+            "id": "void-mvw27kni",
+            "sku": "VW-10000",
+            "name": "BLEEDING BUTTERFLY {HOODIE}",
+            "category": "HOODIES",
+            "tagline": "HEAVYWEIGHT OVERSIZED UNISEX HOODIE",
+            "price": 1999,
+            "originalPrice": 3500,
+            "badge": "NEW DROP",
+            "gsm": 280,
+            "fabric": "100% Ultra-Dense Combed Cotton",
+            "fit": "Signature Boxy Oversized Silhouette",
+            "sizes": [
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "images": [
+              "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+            ],
+            "backImage": "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "sideImage": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "angles": [
+              {
+                "angle": "FRONT",
+                "label": "FRONT ANGLE",
+                "url": "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg"
+              },
+              {
+                "url": "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                "label": "REAR PROFILE",
+                "angle": "BACK"
+              },
+              {
+                "url": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                "label": "SIDE SILHOUETTE",
+                "angle": "SIDE"
+              }
+            ],
+            "colors": [
+              {
+                "hex": "#0B0B0B",
+                "name": "Pitch Black",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "family": "Black"
+              },
+              {
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "hex": "#EDECE8",
+                "family": "White",
+                "name": "Chalk Ivory"
+              },
+              {
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "hex": "#162A43",
+                "name": "Deep Cobalt Blue",
+                "family": "Blue"
+              },
+              {
+                "hex": "#243828",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "name": "Forest Pine Green",
+                "family": "Green"
+              },
+              {
+                "hex": "#ffb8f0",
+                "family": "Other",
+                "name": "BABY PINK",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ]
+              },
+              {
+                "hex": "#730c0c",
+                "name": "MAROON",
+                "family": "Other",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ]
+              }
+            ],
+            "description": "Product Name: Bleeding Butterfly (Voidwear Butterfly Collection)\n\nProduct Overview\nStep beyond the ordinary with the \"Bleeding Butterfly\" oversized hoodie from Voidwear. Built for those who wear their transformation boldly, this piece blends striking, raw aesthetics with uncompromising comfort. Featuring an intense splattered butterfly graphic across the back, it symbolizes freedom, evolution, and the grit required to become a stronger you.\n\nKey Features\nOversized Fit: Engineered with a modern, relaxed drop-shoulder silhouette for maximum streetwear appeal and effortless layering.\n\nStriking Back Graphic: High-impact \"Bleeding Butterfly\" artwork contrasting sharp white, monochrome, and vivid crimson splatters against a deep black canvas.\n\nPremium Cotton Blend: Crafted from a heavy, ultra-soft fabric blend that delivers cozy warmth, breathability, and structural durability.\n\nDurable Fade-Resistant Print: High-definition printing technology ensures the intricate splatters and bold contrast stay vibrant wash after wash.\n\nSpecifications & Care\nMaterial: Premium Cotton Blend (Heavyweight fleece interior for winter/evening wear)\n\nFit Type: Oversized / Relaxed Streetwear Fit\n\nStyle: Pullover Hoodie with adjustable drawstrings and a spacious kangaroo pocket\n\nCare Instructions: Machine wash cold inside out with like colors. Tumble dry low or hang dry to preserve print longevity. Do not iron directly on the graphic.\n\nThe Message\nFreedom. Transformation. A Stronger You.",
+            "details": [
+              "Heavyweight 280 GSM luxury knit",
+              "Reinforced rib neckline",
+              "Distressed rear insignia"
+            ],
+            "careInstructions": [
+              "Machine wash cold inside out",
+              "Hang dry in shade",
+              "Do not bleach"
+            ],
+            "inStock": true,
+            "stockCount": 25,
+            "isPublished": true,
+            "featured": true,
+            "slug": "void-mvw27kni",
+            "createdAt": "2026-10-31T07:08:13.519Z",
+            "updatedAt": "2026-10-31T19:11:21.512Z"
+          },
+          "size": "L",
+          "color": {
+            "hex": "#0B0B0B",
+            "name": "Pitch Black",
+            "images": [
+              "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+            ],
+            "family": "Black"
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 1999,
+      "paymentMethod": "COD",
+      "notes": "Automated E-Commerce QA Test Order",
+      "orderId": "VW-425829",
+      "createdAt": "1 Nov 2026",
+      "updatedAt": "2026-11-01T10:53:45.830Z",
+      "status": "PAID",
+      "timeline": [
+        {
+          "status": "PAID",
+          "timestamp": "2026-11-01T10:53:45.830Z",
+          "title": "Order Confirmed",
+          "description": "Order placed and logged in VOID WEAR atelier"
+        }
+      ]
+    },
+    {
+      "customerName": "Aesthetic QA Verifier",
+      "email": "qa.test@voidwear.in",
+      "phone": "+919999999999",
+      "address": "Varanasi Atelier Road",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "pincode": "221002",
+      "items": [
+        {
+          "product": {
+            "id": "void-mvw27kni",
+            "sku": "VW-10000",
+            "name": "BLEEDING BUTTERFLY {HOODIE}",
+            "category": "HOODIES",
+            "tagline": "HEAVYWEIGHT OVERSIZED UNISEX HOODIE",
+            "price": 1999,
+            "originalPrice": 3500,
+            "badge": "NEW DROP",
+            "gsm": 280,
+            "fabric": "100% Ultra-Dense Combed Cotton",
+            "fit": "Signature Boxy Oversized Silhouette",
+            "sizes": [
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "images": [
+              "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+            ],
+            "backImage": "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "sideImage": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "angles": [
+              {
+                "url": "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                "label": "FRONT ANGLE",
+                "angle": "FRONT"
+              },
+              {
+                "url": "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                "label": "REAR PROFILE",
+                "angle": "BACK"
+              },
+              {
+                "angle": "SIDE",
+                "url": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                "label": "SIDE SILHOUETTE"
+              }
+            ],
+            "colors": [
+              {
+                "name": "Pitch Black",
+                "family": "Black",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "hex": "#0B0B0B"
+              },
+              {
+                "family": "White",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "name": "Chalk Ivory",
+                "hex": "#EDECE8"
+              },
+              {
+                "hex": "#162A43",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "name": "Deep Cobalt Blue",
+                "family": "Blue"
+              },
+              {
+                "hex": "#243828",
+                "name": "Forest Pine Green",
+                "family": "Green",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ]
+              },
+              {
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "hex": "#ffb8f0",
+                "name": "BABY PINK",
+                "family": "Other"
+              },
+              {
+                "name": "MAROON",
+                "family": "Other",
+                "hex": "#730c0c",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ]
+              }
+            ],
+            "description": "Product Name: Bleeding Butterfly (Voidwear Butterfly Collection)\n\nProduct Overview\nStep beyond the ordinary with the \"Bleeding Butterfly\" oversized hoodie from Voidwear. Built for those who wear their transformation boldly, this piece blends striking, raw aesthetics with uncompromising comfort. Featuring an intense splattered butterfly graphic across the back, it symbolizes freedom, evolution, and the grit required to become a stronger you.\n\nKey Features\nOversized Fit: Engineered with a modern, relaxed drop-shoulder silhouette for maximum streetwear appeal and effortless layering.\n\nStriking Back Graphic: High-impact \"Bleeding Butterfly\" artwork contrasting sharp white, monochrome, and vivid crimson splatters against a deep black canvas.\n\nPremium Cotton Blend: Crafted from a heavy, ultra-soft fabric blend that delivers cozy warmth, breathability, and structural durability.\n\nDurable Fade-Resistant Print: High-definition printing technology ensures the intricate splatters and bold contrast stay vibrant wash after wash.\n\nSpecifications & Care\nMaterial: Premium Cotton Blend (Heavyweight fleece interior for winter/evening wear)\n\nFit Type: Oversized / Relaxed Streetwear Fit\n\nStyle: Pullover Hoodie with adjustable drawstrings and a spacious kangaroo pocket\n\nCare Instructions: Machine wash cold inside out with like colors. Tumble dry low or hang dry to preserve print longevity. Do not iron directly on the graphic.\n\nThe Message\nFreedom. Transformation. A Stronger You.",
+            "details": [
+              "Heavyweight 280 GSM luxury knit",
+              "Reinforced rib neckline",
+              "Distressed rear insignia"
+            ],
+            "careInstructions": [
+              "Machine wash cold inside out",
+              "Hang dry in shade",
+              "Do not bleach"
+            ],
+            "inStock": true,
+            "stockCount": 25,
+            "isPublished": true,
+            "featured": true,
+            "slug": "void-mvw27kni",
+            "createdAt": "2026-10-31T07:08:13.519Z",
+            "updatedAt": "2026-10-31T19:11:21.512Z"
+          },
+          "size": "L",
+          "color": {
+            "name": "Pitch Black",
+            "family": "Black",
+            "images": [
+              "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+            ],
+            "hex": "#0B0B0B"
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 1999,
+      "paymentMethod": "COD",
+      "notes": "Automated E-Commerce QA Test Order",
+      "orderId": "VW-831191",
+      "createdAt": "1 Nov 2026",
+      "updatedAt": "2026-11-01T08:13:51.228Z",
+      "status": "PAID",
+      "timeline": [
+        {
+          "status": "PAID",
+          "timestamp": "2026-11-01T08:13:51.228Z",
+          "title": "Order Confirmed",
+          "description": "Order placed and logged in VOID WEAR atelier"
+        }
+      ]
+    },
+    {
+      "customerName": "Aesthetic QA Verifier",
+      "email": "qa.test@voidwear.in",
+      "phone": "+919999999999",
+      "address": "Varanasi Atelier Road",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "pincode": "221002",
+      "items": [
+        {
+          "product": {
+            "id": "void-mvw27kni",
+            "sku": "VW-10000",
+            "name": "BLEEDING BUTTERFLY {HOODIE}",
+            "category": "HOODIES",
+            "tagline": "HEAVYWEIGHT OVERSIZED UNISEX HOODIE",
+            "price": 1999,
+            "originalPrice": 3500,
+            "badge": "NEW DROP",
+            "gsm": 280,
+            "fabric": "100% Ultra-Dense Combed Cotton",
+            "fit": "Signature Boxy Oversized Silhouette",
+            "sizes": [
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "images": [
+              "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+            ],
+            "backImage": "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "sideImage": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg",
+            "angles": [
+              {
+                "url": "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                "angle": "FRONT",
+                "label": "FRONT ANGLE"
+              },
+              {
+                "label": "REAR PROFILE",
+                "url": "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                "angle": "BACK"
+              },
+              {
+                "url": "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                "label": "SIDE SILHOUETTE",
+                "angle": "SIDE"
+              }
+            ],
+            "colors": [
+              {
+                "family": "Black",
+                "hex": "#0B0B0B",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "name": "Pitch Black"
+              },
+              {
+                "hex": "#EDECE8",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "name": "Chalk Ivory",
+                "family": "White"
+              },
+              {
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "hex": "#162A43",
+                "family": "Blue",
+                "name": "Deep Cobalt Blue"
+              },
+              {
+                "hex": "#243828",
+                "family": "Green",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "name": "Forest Pine Green"
+              },
+              {
+                "hex": "#ffb8f0",
+                "family": "Other",
+                "name": "BABY PINK",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ]
+              },
+              {
+                "name": "MAROON",
+                "images": [
+                  "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+                  "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+                ],
+                "family": "Other",
+                "hex": "#730c0c"
+              }
+            ],
+            "description": "Product Name: Bleeding Butterfly (Voidwear Butterfly Collection)\n\nProduct Overview\nStep beyond the ordinary with the \"Bleeding Butterfly\" oversized hoodie from Voidwear. Built for those who wear their transformation boldly, this piece blends striking, raw aesthetics with uncompromising comfort. Featuring an intense splattered butterfly graphic across the back, it symbolizes freedom, evolution, and the grit required to become a stronger you.\n\nKey Features\nOversized Fit: Engineered with a modern, relaxed drop-shoulder silhouette for maximum streetwear appeal and effortless layering.\n\nStriking Back Graphic: High-impact \"Bleeding Butterfly\" artwork contrasting sharp white, monochrome, and vivid crimson splatters against a deep black canvas.\n\nPremium Cotton Blend: Crafted from a heavy, ultra-soft fabric blend that delivers cozy warmth, breathability, and structural durability.\n\nDurable Fade-Resistant Print: High-definition printing technology ensures the intricate splatters and bold contrast stay vibrant wash after wash.\n\nSpecifications & Care\nMaterial: Premium Cotton Blend (Heavyweight fleece interior for winter/evening wear)\n\nFit Type: Oversized / Relaxed Streetwear Fit\n\nStyle: Pullover Hoodie with adjustable drawstrings and a spacious kangaroo pocket\n\nCare Instructions: Machine wash cold inside out with like colors. Tumble dry low or hang dry to preserve print longevity. Do not iron directly on the graphic.\n\nThe Message\nFreedom. Transformation. A Stronger You.",
+            "details": [
+              "Heavyweight 280 GSM luxury knit",
+              "Reinforced rib neckline",
+              "Distressed rear insignia"
+            ],
+            "careInstructions": [
+              "Machine wash cold inside out",
+              "Hang dry in shade",
+              "Do not bleach"
+            ],
+            "inStock": true,
+            "stockCount": 25,
+            "isPublished": true,
+            "featured": true,
+            "slug": "void-mvw27kni",
+            "createdAt": "2026-10-31T07:08:13.519Z",
+            "updatedAt": "2026-10-31T19:11:21.512Z"
+          },
+          "size": "L",
+          "color": {
+            "family": "Black",
+            "hex": "#0B0B0B",
+            "images": [
+              "/uploads/1793472999231_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473009016_whatsapp_image_2026_10_31_at_1_2.jpeg",
+              "/uploads/1793473017964_whatsapp_image_2026_10_31_at_1_2.jpeg"
+            ],
+            "name": "Pitch Black"
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 1999,
+      "paymentMethod": "COD",
+      "notes": "Automated E-Commerce QA Test Order",
+      "orderId": "VW-784972",
+      "createdAt": "1 Nov 2026",
+      "updatedAt": "2026-11-01T08:13:04.973Z",
+      "status": "PAID",
+      "timeline": [
+        {
+          "status": "PAID",
+          "timestamp": "2026-11-01T08:13:04.973Z",
+          "title": "Order Confirmed",
+          "description": "Order placed and logged in VOID WEAR atelier"
+        }
+      ]
+    },
     {
       "customerName": "Aesthetic QA Verifier",
       "email": "qa.test@voidwear.in",
@@ -1691,6 +2183,18 @@
     {
       "email": "vip.1793477079530@voidwear.in",
       "subscribedAt": "2026-10-31T20:04:39.533Z"
+    },
+    {
+      "email": "vip.1793520784983@voidwear.in",
+      "subscribedAt": "2026-11-01T08:13:04.985Z"
+    },
+    {
+      "email": "vip.1793520831240@voidwear.in",
+      "subscribedAt": "2026-11-01T08:13:51.245Z"
+    },
+    {
+      "email": "vip.1793530425838@voidwear.in",
+      "subscribedAt": "2026-11-01T10:53:45.840Z"
     }
   ]
 }

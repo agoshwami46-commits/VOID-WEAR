@@ -5,9 +5,7 @@ import path from 'path';
 import fs from 'fs';
 import crypto from 'crypto';
 import multer from 'multer';
-import { INITIAL_PRODUCTS, INITIAL_REVIEWS } from './src/data/products';
-import { INITIAL_WEBSITE_CONTENT } from './src/data/websiteContent';
-import {
+import type {
   Product,
   OrderDetails,
   OrderStatus,
@@ -16,6 +14,15 @@ import {
   WebsiteContent,
   QikinkSkuMapping
 } from './src/types';
+
+// Load initial seed dataset directly from validated store JSON archive
+const DEFAULT_SEED_DATA = JSON.parse(
+  fs.readFileSync(path.resolve(process.cwd(), 'data/voidwear_store.json'), 'utf-8')
+);
+const INITIAL_PRODUCTS: Product[] = DEFAULT_SEED_DATA.products || [];
+const INITIAL_REVIEWS: Review[] = DEFAULT_SEED_DATA.reviews || [];
+const INITIAL_WEBSITE_CONTENT: WebsiteContent =
+  DEFAULT_SEED_DATA.settings?.content || ({} as any);
 import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getFirestore, initializeFirestore, doc, setDoc, deleteDoc, getDocs, collection } from 'firebase/firestore';
 
@@ -990,16 +997,17 @@ app.post('/api/newsletter', (req, res) => {
    ========================================================================== */
 
 async function startServer() {
-  const port = Number(process.env.PORT)||3000;
+  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
   const httpServer = http.createServer(app);
 
   if (!isProduction) {
+    const isHmrDisabled = process.env.DISABLE_HMR === 'true';
     const vite = await createViteServer({
       server: {
         middlewareMode: true,
         // Bind Vite's WebSocket server to httpServer so browser ws:// connections upgrade seamlessly without errors
         ws: { server: httpServer },
-        watch: process.env.DISABLE_HMR === 'true' ? null : {}
+        watch: isHmrDisabled ? null : {}
       },
       appType: 'spa'
     });
@@ -1029,9 +1037,9 @@ async function startServer() {
     });
   }
 
-  // Bind httpServer to port 3000
+  // Primary listener: Binds to process.env.PORT (or 3000) on 0.0.0.0 (required by Render)
   const server = httpServer.listen(port, '0.0.0.0', () => {
-    console.log(`VOID WEAR Server running at http://0.0.0.0:${port}`);
+    console.log(`VOID WEAR Server running on http://0.0.0.0:${port}`);
     // Trigger background sync with Cloud Firestore
     syncFirestoreToDisk().catch((e) => console.warn('Background sync error:', e));
   });
@@ -1044,19 +1052,16 @@ async function startServer() {
     }
   });
 
-  // Also bind to process.env.PORT if different (e.g. 8080 in Cloud Run)
-  const envPort = process.env.PORT ? Number(process.env.PORT) : null;
-  if (envPort && envPort !== 3000 && !isNaN(envPort)) {
+  // Dual-port support: If PORT != 3000, optionally provide 3000 as secondary listener if available
+  if (port !== 3000) {
     try {
-      const secServer = http.createServer(app).listen(envPort, '0.0.0.0', () => {
-        console.log(`VOID WEAR Server also listening on port ${envPort}`);
+      const secServer = http.createServer(app).listen(3000, '0.0.0.0', () => {
+        console.log(`VOID WEAR Secondary listener active on http://0.0.0.0:3000`);
       });
-      secServer.on('error', (e: any) => {
-        console.warn(`Secondary port ${envPort} warning:`, e.message);
+      secServer.on('error', () => {
+        // Silently ignore if port 3000 cannot be bound on external cloud platforms
       });
-    } catch (e) {
-      console.warn(`Could not bind to secondary port ${envPort}:`, e);
-    }
+    } catch {}
   }
 }
 
